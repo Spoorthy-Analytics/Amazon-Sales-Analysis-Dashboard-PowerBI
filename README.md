@@ -50,7 +50,7 @@ README.md
 ```
 ---
 ## Dashboard Preview
-Dashboard_Overview.png
+![Dashboard](Dashboard_Overview.png)
 ---
 ## Author
 SPOORTHY
