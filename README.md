@@ -50,9 +50,9 @@ README.md
 ```
 ---
 ## Dashboard Preview
-![Dashboard](Dashboard_Overview.png)
+Dashboard_Overview.png
 ---
 ## Author
 SPOORTHY
 
-GitHub: https://github.com/Spoorthy-Analytics
+GitHub: [Spoorthy-Analytics](https://github.com/Spoorthy-Analytics)
