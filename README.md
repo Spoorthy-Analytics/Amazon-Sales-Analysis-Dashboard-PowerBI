@@ -43,10 +43,9 @@ Identify top-selling products and products with the highest customer engagement.
 ---
 ## Project Structure
 ```text
-Dashboard/
 Dataset/
+Dashboard/
 Images/
-Documentation/
 README.md
 ```
 ---
