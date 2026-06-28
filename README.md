@@ -8,6 +8,7 @@ This Power BI project provides a comprehensive sales analysis dashboard for Amaz
 - QTD Sales: $811.09K
 - YTD Products Sold: 27.75K
 - YTD Reviews: 19.42M
+---
 ### Business Insights
 - Sales by Month
 - Sales by Week
