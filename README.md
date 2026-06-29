@@ -9,6 +9,18 @@ This Power BI project provides a comprehensive sales analysis dashboard for Amaz
 - YTD Products Sold: 27.75K
 - YTD Reviews: 19.42M
 ---
+## DAX Used
+1.	Calender Table = CALENDAR(MIN(Amazon_Data[Order Date]),MAX(Amazon_Data[Order Date]))
+2.	QTD SALES = TOTALQTD(SUM(Amazon_Data[Price(Dollar)]),'Calender Table'[Date])
+3.	YTD Products Sold = TOTALYTD(COUNT(Amazon_Data[Product Category]),'Calender Table'[Date])
+4.	YTD Reviews = TOTALYTD(SUM(Amazon_Data[Number of  reviews]),'Calender Table'[Date])
+5.	YTD Sales = TOTALYTD(SUM(Amazon_Data[Price(Dollar)]),'Calender Table'[Date])
+6.	MONTH NAME = FORMAT('Calender Table'[Date], "MMM" )
+7.	Month No = MONTH('Calender Table'[Date])
+8.	QTR = CONCATENATE(" Qtr", 'Calender Table'[Quarter Number])
+9.	Quarter Number = QUARTER('Calender Table'[Date])
+10.	Week = WEEKNUM('Calender Table'[Date])
+---
 ### Business Insights
 - Sales by Month
 - Sales by Week
